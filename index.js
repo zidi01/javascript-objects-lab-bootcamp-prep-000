@@ -2,8 +2,7 @@ var recipes = {prop: 1};
 var newRecipes = Object.assign(recipes);
 
 function updateObjectWithKeyAndValue(recipes, key, value) {
-  Object.assign(recipes, {prop2: '2'});
-  return resipes;
+  return Object.assign(recipes, {prop2: '2'});
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
