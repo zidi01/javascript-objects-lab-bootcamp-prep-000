@@ -3,6 +3,8 @@ var newRecipes = Object.assign(recipes);
 
 function updateObjectWithKeyAndValue(recipes, key, value) {
   return Object.assign({}, recipes, {['prop2']: "2"});
+  // in previously lab, the "{}" was failed
+  // now it is okay. Why?
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(recipes, key, value) {
