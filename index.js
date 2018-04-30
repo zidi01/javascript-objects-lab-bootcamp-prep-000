@@ -13,11 +13,11 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 
 function deleteFromObjectByKey(object, key) {
   delete newRecipes[prop];
-  
+  return Object.assign(newRecipes);
 }
 
 function destructivelyDeleteFromObjectByKey(object, key) {
- 
+ delete.
   
 }
 
